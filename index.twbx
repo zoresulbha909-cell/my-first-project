@@ -1,1 +1,882 @@
+What is Tableau? 
+Tableau is a data visualization and business intelligence tool that helps you turn raw data into interactive charts, graphs, reports, and dashboards — without any coding.
+Why is Tableau Used?
+Tableau is popular because it:
+Creates charts and dashboards quickly
+Works with large datasets smoothly
+Is completely drag-and-drop
+Helps analyze data visually
+Makes decision-making faster
+Supports maps, forecasting, trends
+Does not require programming
+Where is Tableau Used?
+Tableau is used in:
+Banking
+Retail
+E-commerce
+Healthcare
+Marketing
+Finance
+Data Analytics
+Business Reporting
+HR Analytics
+Companies use Tableau to understand performance and make decisions.
+Tableau Products
+Tableau Public – Free version for learning
+Tableau Desktop – Professional version (advanced features)
+Tableau Server – Used by companies to share dashboards internally
+Tableau Cloud – Online platform to share dashboards
+Tableau Prep – Data cleaning/ETL tool
+What Tableau Can Do
+Build charts (bar, line, pie, scatter, maps, etc.)
+Create interactive dashboards
+Add filters, highlights, actions
+Use calculations
+Create map visualizations
+Build stories to present insights
+Analyze trends and forecasts
+TABLEAU PUBLIC INSTALLATION
+This is the free version of Tableau
+Go to the Official Website
+https://public.tableau.com    (This is the official Tableau Public website.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+Click on this:
+Download Tableau Desktop Public Edition: 
+
+Fill This info:
+
+Then installation
+
+
+
+
+
+
+TABLEAU PUBLIC START PAGE:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Connect Panel (Left Side – Blue Area):
+To a File
+1. Microsoft Excel
+Use: To import Excel files (.xlsx, .xls)
+Example: Sales.xlsx
+Practical: Drag and drop sheets → build charts
+Text file
+Use: Import CSV or TXT files
+Example: Sales.csv
+Practical: You can clean data and create charts
+JSON file
+Use: Import API or nested data
+Example: Web data, e-commerce API export
+Practical: Creates hierarchical structure automatically
+
+Microsoft Access
+Use: Connect to Access database (.mdb / .accdb)
+Example: Old banking system or MIS reports
+PDF file
+Use: Extract tables from PDF
+Practical: Converts PDF tables into usable data
+Spatial file
+Use: Maps / geospatial data
+Example: Shapefiles (.shp), KML
+Practical: Custom maps (custom regions, zones)
+Statistical file
+Use: Import SAS, SPSS, R data
+Practical: Useful for analytics/ML teams
+To a Server
+1. OData
+Use: Connect to online data sources via OData link
+Example: Government datasets, CRM data
+More…
+This includes:
+Google Sheets
+Tableau Server
+Tableau Cloud
+OneDrive
+SharePoint
+Snowflake
+SQL databases
+
+
+Use: For live or extract connections to databases
+Open Panel (Middle White Area)
+Shows recently opened workbooks
+When you reopen Tableau, your last used files appear here
+Use: Quickly continue your old work
+Example:
+ If you worked on Sales Dashboard.twb yesterday, you can open it from here.
+"Open from Tableau Public" (Right Top Center)
+This lets you open dashboards saved on your Tableau Public profile.
+Use:
+To continue your cloud-saved work
+To open your previous published dashboards
+What’s New Panel (Right Side – Blue/White Box)
+Shows new updates/features of the current Tableau version.
+Use:
+Know latest features
+Update the version
+Learn new functions
+Your screenshot shows:
+ “Update to 2025.3 Now”
+Meaning → new version available.
+Learn Tableau Section (Right Side)
+This section gives learning material.
+1. Get started with Tableau Public
+Beginner tutorials
+Use → Best for students' first day
+2. Watch how-to videos
+Step-by-step practical demos
+3. Explore sample datasets
+Use → Practice with ready-made Superstore data
+4. Learn on Trailhead
+Free structured courses
+5. Read the blog
+Learn new updates
+6. Explore Today’s Viz / Trending Vizzes
+Shows dashboards created by global users
+
+
+Use → Inspiration for student projects
+Top Menu (File, Data, Help)
+These are your main controls.
+🔵 File
+Create new workbook
+Open files
+Save to Tableau Public
+Export images/PDF
+Use → File management
+🔵 Data
+Refresh data
+Edit data source
+Replace data source
+Use → When your Excel file updates
+🔵 Help
+Documentation
+Version info
+Log in/out
+Use → For troubleshooting & help
+Tableau Worksheet:
+
+
+
+
+
+
+
+
+
+Top Menu (File, Data, Worksheet, Dashboard, Story, Analysis, Map, Format, Server, Window, Help)
+
+Use this for file management, data settings, view options and advanced features.
+File
+New, Open, Save to Tableau Public, Print, Export (Image / PDF / Crosstab), Close.
+Use: save workbook, export visuals for reports.
+Tip: use Save to Tableau Public for student portfolios.
+Data
+Connect to data, Refresh, Replace Data Source, Edit Data Source, Extract, Connections.
+Use: manage the dataset you're using (refresh when Excel/DB updates).
+Exercise: open Excel → Data → Refresh to show live updates.
+Worksheet
+Rename sheet, Duplicate, Show Title, Show Caption, Export, Describe Sheet.
+Use: control single-sheet behaviour and export single chart.
+Dashboard
+New Dashboard, Device Preview, Actions, Size presets.
+Use: when you want to combine multiple sheets into one interactive page.
+Tip: set Device Preview early (phone/tablet).
+Story
+New Story, Add Sheets as story points.
+Use: create a narrative / slides from sheets.
+Analysis
+Aggregate Measures, Totals, Custom Color Palettes, Create Calculated Field, Forecast, Trend Lines.
+Use: add analytics elements to views (trend lines, forecasts, totals).
+Exercise: Analysis → Totals → Show Row Grand Totals.
+Map
+Background maps, Map Layers, Geocoding, Map Options.
+Use: control map style and details for geographic visualizations.
+Format
+Formatting pane for font, lines, shading, borders.
+Use: make visuals publication-ready.
+Server
+Publish to Server / Sign-in (Tableau Server / Cloud).
+Use: share within organization (not used with public edition except sign-in).
+Window
+Arrange windows, Reset workspace.
+Use: multi-monitor or reset layout.
+Help
+Docs, About Tableau, Support.
+Toolbar:
+Small icons give quick access to common commands.
+Common toolbar icons (left → right) you’ll see:
+
+Undo / Redo (curved arrows)
+
+
+Use: revert recent actions. Shortcut Ctrl+Z / Ctrl+Y.
+
+
+Save (disk icon or Save to Tableau Public)
+
+
+Use: save workbook to cloud/profile.
+
+
+New Worksheet / New Dashboard / New Story (small sheet/dashboard icons)
+
+
+Use: add new canvas quickly.
+
+
+Swap Rows and Columns (⇄)
+
+
+Use: quickly flip axes to test alternative layouts.
+
+
+Clear Sheet (eraser)
+
+
+Use: start fresh on the sheet.
+
+
+Sort (A↓Z icon)
+
+
+Use: sort selected field ascending/descending.
+
+
+Revert (revert to last saved state)
+
+
+Use when you want to discard unsaved changes.
+
+
+Presentation / Fit controls (Standard, Fit Width, Fit Height, Entire View)
+
+
+Use: change how the view fits in the canvas.
+
+
+Show Me (right side of toolbar)
+
+
+Use: quick chart suggestions based on selected fields.
+
+
+Practical: build a bar chart → click Swap Rows/Columns to show students how layout changes.
+Left Sidebar — Data & Analytics tabs
+This vertical pane controls data, fields, and analytics objects.
+Data tab (default)
+Connect to Data (link at top)
+Opens Data Source page to add/connect files or servers.
+Tables / Data Source name
+After connecting, tables/sheets appear here.
+Fields list (Dimensions & Measures) (not shown in your screenshot because no data connected)
+Blue = Dimensions (qualitative), Green = Measures (numeric).
+Right-click a field to: Rename, Change Data Type, Create → Calculated Field / Parameter / Set, Create → Bins / Group, Hide.
+Search box: quickly find fields in large datasets.
+Usage: teach students to always check data types (ABC, #, calendar, globe).
+Analytics tab (next to Data)
+Drag analytic objects into view: Average line, Reference band, Box plot, Trend lines, Forecast, Clustering, Totals.
+Use: add statistical/contextual layers to charts without writing code.
+Example: Drag Trend Line on scatter to show correlation.
+
+
+
+
+
+
+
+
+
+SUMMARIZE Section
+1. Constant Line
+Meaning: A straight horizontal or vertical line at a fixed value.
+ Use: Show benchmark, target value, minimum performance level.
+ Example: Add a constant line at ₹50,000 Sales target.
+ Exercise:
+Create a bar chart of Category vs Sales
+Drag Constant Line → Pane
+Type 50000 as target
+Ask students to highlight categories above/below target.
+Average Line
+Meaning: Shows the average of a measure across the view.
+ Use: Quickly understand performance above/below average.
+ Example: Add Average Profit line on a scatter chart.
+ Exercise:
+Scatter: Sales vs Profit
+Drag Average Line → Table
+Students identify points below average profit.
+ Median with Quartiles
+Meaning: Shows median (50th percentile) + quartiles (Q1 25%, Q3 75%).
+ Use: Understand distribution, detect skewness.
+ Example: Sales distribution of products (Box-like distribution).
+ Exercise:
+Create histogram of Sales
+Add Median with Quartiles
+Students identify skewness (right/left skew).
+Box Plot
+Meaning: A statistical chart showing minimum, Q1, median, Q3, maximum, and outliers.
+ Use: Spot outliers, distribution spread.
+ Example: Compare discount distribution across categories.
+ Exercise:
+Drag Category → Columns, Discount → Rows
+Add Box Plot from Analytics pane
+Students explain which category has most outliers.
+Totals
+Meaning: Adds row total, column total, grand total.
+ Use: Performance summary.
+ Example: Show grand total of Sales in a table.
+ Exercise:
+Create a crosstab: Category vs Subcategory → Sales
+Analytics → Totals → Show Row/Column/Grand Totals
+Ask: Which category contributes most to total?
+MODEL Section
+6. Average with 95% CI (Confidence Interval)
+Meaning: Shows average + range where true mean lies with 95% confidence.
+ Use: Statistical reliability, compare group means.
+ Example: Avg Sales of different categories with CI.
+ Exercise:
+Category vs Sales bar chart
+Add Average with 95% CI
+Students explain if confidence intervals overlap.
+Median with 95% CI
+Meaning: Same as above but based on median instead of mean.
+ Use: For skewed data or outliers.
+ Example: Order processing time distribution.
+ Exercise:
+Create distribution chart of Delivery Days
+Add Median with 95% CI
+Ask: Which categories have wide CI (unstable performance)?
+Trend Line
+Meaning: Shows trend pattern (linear, exponential, polynomial).
+ Use: Predict future direction (increasing/decreasing).
+ Example: Show sales growth over months.
+ Exercise:
+Line chart: Month vs Sales
+Drag Trend Line → Linear
+Students check if R² is high or low (strength of trend).
+Forecast
+Meaning: Uses historical data to predict future values.
+ Use: Time-series forecasting for sales, revenue, customers.
+ Example: Forecast next 12 months sales.
+ Exercise:
+Month vs Sales
+Drag Forecast → Pane
+Students explain forecast summary (upper/lower bounds).
+Cluster
+Meaning: Groups similar data points into clusters using k-means algorithm.
+ Use: Customer segmentation, product segmentation.
+ Example: Segment customers based on Sales vs Profit.
+ Exercise:
+Scatter: Sales vs Profit
+Drag Cluster → View
+Try 3–5 clusters
+Students label clusters: “High Value”, “Medium Value”, “Low Value”.
+CUSTOM Section
+11. Reference Line
+Meaning: Add dynamic line based on measure (mean, sum, min, max, fixed value).
+ Use: Highlight metric target or threshold.
+ Example: Add reference line for Average Sales.
+ Exercise:
+Bar chart → add Reference Line (SUM of Sales)
+Students customize label (value + percent).
+Reference Band
+Meaning: Highlight a shaded band between two values.
+ Use: Show acceptable range or tolerance zone.
+ Example: Highlight profit range between 5% to 10%.
+ Exercise:
+Drag Reference Band → Pane
+Set “min 1000” to “max 5000”
+Students adjust shading color.
+Distribution Band
+Meaning: Shows distribution ranges like percentiles or standard deviations.
+ Use: Statistical spread visualized as bands.
+ Example: ±1 Standard Deviation band on sales chart.
+ Exercise:
+Create line chart
+Add Distribution Band (Std Dev = 1, 2)
+Students explain if data is stable or variable.
+Box Plot (again under Custom)
+Meaning: Same as Summarize but more customizable.
+ Use: Use custom box plot when you want:
+ ✔ Change whisker computation
+ ✔ Add color
+ ✔ Add labels
+ ✔ Use for specific dimensions
+ Example: Department-wise salary distribution.
+ Exercise:
+Use Custom Box Plot
+Modify inner quartile range
+Compare with the automatic box plot.
+Super Short Summary
+Feature
+What it does
+When to use
+Constant Line
+Fixed target line
+Benchmarks
+Average Line
+Avg of measure
+Compare against average
+Median + Quartiles
+Median + 25/75%
+Distribution overview
+Box Plot
+Outliers & spread
+Identify extremes
+Totals
+Row/Column totals
+Summary tables
+Avg with CI
+Avg + confidence interval
+Statistical reliability
+Median with CI
+Median + CI
+Skewed data
+Trend Line
+Best-fit line
+Direction/trend
+Forecast
+Predict future
+Sales forecasting
+Cluster
+Group similar points
+Segmentation
+Reference Line
+Dynamic line
+KPIs
+Reference Band
+Highlight range
+Target zones
+Distribution Band
+Percentiles/Stdev bands
+Variability analysis
+Custom Box Plot
+Customized box plot
+Advanced stats
+
+DATA SOURCE PAGE (Orders — Superstore)
+
+
+
+
+
+
+
+
+
+Top title / connection area
+Shows the connection name: Orders (Superstore Dataset (1)) and the source type (Microsoft Excel).
+Use: confirm which file you are working on. Rename if you want a teacher-friendly name.
+Connections (left pane)
+Lists each connected file/table. You can Add another file or sheet (for joins/unions).
+Use: add Returns, People sheets, or connect another file for blending/joining.
+Sheets area (left)
+Shows available sheets inside the Excel (Orders, People, Returns).
+Use: drag a sheet to the canvas (center) to use it. Click a sheet name to preview it.
+Top center — Table selector & row count
+Dropdown to select which table or named range to preview.
+Shows number of fields and rows (e.g., 21 fields, 9994 rows).
+Use: confirm dataset size before building.
+Preview grid (right / center)
+A sample view of data rows/columns. Scroll right to see all fields.
+Use: visually inspect values, check for blanks, check date formats, see examples of Order ID, Order Date, Ship Mode, etc.
+LEFT SIDE — Fields Grid / Metadata
+This section shows information ABOUT each field (column) in your dataset.
+Column
+Meaning
+Type Icon
+Shows the data type (# = Number, ABC = Text, Calendar = Date, Globe = Geographic)
+Field Name
+The name of the column (Order Date, Ship Mode, Customer ID etc.)
+Physical Table
+The table where this field comes from (Orders, People, Returns etc.)
+Remote Field Name
+The original name from the source file
+
+
+
+
+
+
+
+
+
+
+
+Section
+What It Shows
+Purpose
+Left (Fields Grid)
+Field names + data types + metadata
+Data cleaning, fixing types, renaming, hiding, preparing
+Right (Data Preview)
+Real data rows and values
+Verifying the actual data, checking quality in table formats
+Center (Canvas)
+Drag/Drop area for tables/sheets
+Creating joins (linking tables) or unions (stacking tables)
+Data Interpreter
+On/Off option near connection
+Cleaning dirty Excel/text data (titles, blank rows)
+
+
+Change Data Type:
+Click on Data type icon & then change data type
+
+
+
+
+
+
+
+
+
+
+
+Tableau Relationships: Logical Table Connections for Smart Visualizations:
+
+Definition:
+In Tableau, a relationship is a logical connection established between two or more tables without physically merging them. This means the tables remain in their original form, and Tableau joins them at query time when needed.
+
+Purpose:
+To combine data from multiple tables.
+To avoid data duplication.
+To improve query performance, as the tables are not physically merged—only a logical connection exists.
+Key Points:
+Relationships exist in the logical layer, not the physical join layer.
+Tableau automatically determines the join type (Left, Inner, etc.) based on the visualization.
+Relationships are flexible, combining data according to conditions set in the visualization.
+
+Feature
+Relationship
+Join (Physical)
+Data Storage
+Tables remain in original form (Logical Layer)
+Tables are physically merged into a new, single table
+Data Duplication
+Avoids duplication
+Can cause duplication (if join is one-to-many)
+Query Timing
+On-demand (Tableau determines join type at the time of visualization)
+Merged immediately (fixed join type: Inner, Left, Right, Full)
+Performance
+Generally better for large, complex datasets and multi-table analysis
+Can be heavy and slow down data source loading if not optimized
+Flexibility
+High (join type adapts dynamically)
+Limited (fixed join type, must be manually specified)
+Complexity
+Simpler to set up (Just match fields)
+Requires understanding of join types (Inner, Left, etc.)
+
+When to Use Relationships
+When you have multiple fact tables or dimension tables and want to avoid data duplication.
+When your visualization requires combining data at different granularities (levels of detail).
+For large datasets where physical joins might slow performance.
+
+Logical Layer (Relationship): Step drag and drop .
+It is a logical connection, tables are not physically merged.
+Data remains in its original form.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Physical Layer (Join / Union):
+
+It is a physical connection, tables are merged into a new table.
+The merge happens immediately, ready for visualization.
+For large datasets, performance can sometimes slow down.
+Example: Inner Join, Left Join, Right Join, Full Outer Join in Tableau.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Inner Join:
+Definition: Returns only the records that match in both tables.
+Example:
+Sales Table: OrderID, CustomerID, Amount
+Customer Table: CustomerID, CustomerName
+Result: Only customers who have sales appear in the output.
+2️⃣ Left Join
+Definition: Returns all records from the left table and the matching records from the right table. If no match, right table fields are NULL.
+
+
+Example:
+Left Table (Customer): CustomerID, CustomerName
+Right Table (Sales): CustomerID, Amount
+Result: All customers are listed, even if they have no sales. Sales Amount will be NULL for customers without sales.
+3️⃣ Right Join
+Definition: Returns all records from the right table and the matching records from the left table. If no match, left table fields are NULL.
+Example:
+Right Table (Sales): OrderID, CustomerID, Amount
+Left Table (Customer): CustomerID, CustomerName
+Result: All sales records are included, even if the customer info is missing. CustomerName will be NULL if no matching customer exists.
+
+
+4️⃣ Full Outer Join
+Definition: Returns all records from both tables, with NULLs where there is no match.
+Example:
+Combines all customers and all sales.
+If a customer has no sales → Amount = NULL.
+If a sale has no customer info → CustomerName = NULL.
+Quick Visualization Concept:
+Inner Join → Intersection of both tables
+Left Join  → All left + matching right
+Right Join → All right + matching left
+Full Outer → Everything from both tables
+
+All Charts In Tableau
+
+Text Table (Crosstab) in Tableau – 
+Meaning
+A Text Table (Crosstab) displays data in rows and columns, similar to an Excel Pivot Table.
+ It shows exact numbers instead of charts.
+🔹 Usage
+Comparing values across multiple categories
+MIS / tabular reporting
+Category–Subcategory comparison
+Showing key metrics together (Sales, Profit, Discount, etc.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bar Chart:
+Usage:
+Compare values across categories
+
+
+Easy to find highest & lowest
+Superstore Example:
+Profit by Segment & Category.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Heat Map
+Usage:
+Color intensity comparison
+
+
+Quickly finds high/low performance areas
+Example:
+Category & Sub-category Profit Heat Map.
+
+Profit Ratio
+Shows how much profit is earned per dollar of sales.
+Formula:
+[Profit] / [Sales]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Discount % (Correct Calculation):
+Usage
+Shows true discount%, not total discount.
+AVG([Discount])
+
+
+Sales Contribution %
+Shows how much each Category/Sub-Category contributes to total sales.
+Formula
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
